@@ -1,0 +1,40 @@
+.block{
+  background-color: rgba($color: darkgrey, $alpha: 0.8);
+  font-family: kanit;
+  border-color: lightgray;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
+}
+
+
+
+.cardStyle{
+
+  background-color: lightgrey;
+  font-family: kanit;
+  border-color: lightgray;
+  margin-top: 2em;
+
+}
+
+.jumbotron{
+
+  font-family: kanit;
+  background-image: url(images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: lightgray;
+  margin-top: 1em;
+
+
+}
+
+body{
+  background-image: url(images//shane-aldendorff-mQHEgroKw2k-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}

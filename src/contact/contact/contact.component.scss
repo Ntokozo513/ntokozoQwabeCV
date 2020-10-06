@@ -1,0 +1,34 @@
+.block{
+  background-color: rgba($color: darkgrey, $alpha: 0.8);
+  font-family: kanit;
+  border-color: lightgray;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
+}
+
+#top{
+
+  font-family: kanit;
+  background-image: url(images/william-iven-DfMMzzi3rmg-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  margin-top: 1rem;
+
+
+}
+
+
+.jumbotron{
+  background-color: rgba($color: darkgrey, $alpha: 0.8);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  color: gold;
+
+}
