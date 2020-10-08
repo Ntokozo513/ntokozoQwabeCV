@@ -8,23 +8,23 @@
   </head>
   <body>
 
-    <nav id="mainNavbar" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top nav-pills">
+    <nav id="mainNavbar" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
       <a class="navbar-brand" style="color: gold;"><i class="fa fa-rocket" aria-hidden="true"></i> NQ <i class="fa fa-rocket" aria-hidden="true"></i></a>
       <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="my-nav" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item active ">
             <a (click) = "aboutMeOn()" class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item active nav nav-pills">
             <a (click) = "aboutMeOff()" class="nav-link " routerLink = "skills">Skills</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item active nav nav-pills">
             <a (click) = "aboutMeOff()" class="nav-link " routerLink = "ex">Experience</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item active nav nav-pills">
             <a (click) = "aboutMeOff()" class="nav-link" routerLink= "contact me">Contact Me</a>
           </li>
         </ul>
@@ -46,14 +46,15 @@
     <div class="block border border rounded ">
       <div class="container">
         <div class="row">
-          <div class="col-6 border border border rounded">
+          <div class="col-lg-6 col-xs-12 border border border rounded">
 
-            <img src="images/dsBuffer.bmp.png">
+            <img src="/images/dsBuffer.bmp.png">
 
 
           </div>
 
-          <div class="col-6">
+          <div class="col-lg-6 col-xs-12 text-center">
+            <h1 style="text-decoration: double overline underline;" class="display-5">Ntokozo Qwabe</h1>
             <p>
               'Hello, My Name is Ntokozo Qwabe I'm a third-year BSc Information Technology student from the North-West University.
               Though my experience these past three years I have gained experience the may languages such as python, C#, java and javascript.
