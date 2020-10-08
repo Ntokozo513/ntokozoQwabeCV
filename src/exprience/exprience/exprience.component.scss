@@ -1,5 +1,5 @@
 .block{
-  background-color: lightgrey;
+  background-color: rgba($color: darkgrey, $alpha: 0.8);
   font-family: kanit;
   border-color: lightgray;
   margin-left: 3rem;
@@ -7,7 +7,13 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 3rem;
+
 };
+
+.card{
+  background-color: rgba($color: lightgrey, $alpha: 0.8);
+  font-weight: 300;
+}
 
 
 .systems{
@@ -40,7 +46,6 @@
   padding-right: 4rem;
   margin: 0.5rem;
   background-image: url(/images/photo-1534972195531-d756b9bfa9f2.jpg);
-  background-color: gold;
 
 }
 

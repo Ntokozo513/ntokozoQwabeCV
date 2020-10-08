@@ -16,7 +16,11 @@ span{
   color: gold;
 }
 
-
+#mainNavbar .nav-link:hover{
+  color: gold;
+  font-weight: 700;
+  text-decoration: underline;
+}
 .block{
   background-color: rgba($color: darkgrey, $alpha: 0.8);
   font-family: kanit;

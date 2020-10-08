@@ -9,6 +9,18 @@
   padding: 3rem;
 }
 
+.para{
+  border: 1rem black double;
+  font-style: italic ;
+  font-weight: 300;
+}
+
+#mainNavbar .nav-link:hover{
+  color: gold;
+  font-weight: 600;
+  text-decoration: underline solid  ;
+}
+
 
 
 .cardStyle{

@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top ">
+    <nav id="mainNavbar" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top nav-pills">
       <a class="navbar-brand" style="color: gold;"><i class="fa fa-rocket" aria-hidden="true"></i> NQ <i class="fa fa-rocket" aria-hidden="true"></i></a>
       <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,10 +34,10 @@
     <section *ngIf = "aboutMe">
       <div class ="container">
         <div class="jumbotron text-center AboutMeJump">
-          <h1 class="display-4">Ntokozo Qwabe</h1>
-          <p class="lead">About Me</p>
+          <h1 class="display-4">About Me</h1>
+          <p class="lead">Ntokozo Qwabe</p>
           <hr class="my-4">
-          <p>Content</p>
+          <p>Hey Let Me tell more about myself</p>
         </div>
       </div>
 
@@ -46,13 +46,23 @@
     <div class="block border border rounded ">
       <div class="container">
         <div class="row">
-          <img src="" class="col-6">
+          <div class="col-6 border border border rounded">
 
-          <p class= "col-6" >
-            Hello My Name is Ntokozo Qwabe Im a third year BSc Information Technology student from the North West Universite.
-            I love programing both front-end and back-end but i wouldn't call self a full stack developer but in a team would be
-            fine with working with either end.
-          </p>
+            <img src="images/dsBuffer.bmp.png">
+
+
+          </div>
+
+          <div class="col-6">
+            <p>
+              'Hello, My Name is Ntokozo Qwabe I'm a third-year BSc Information Technology student from the North-West University.
+              Though my experience these past three years I have gained experience the may languages such as python, C#, java and javascript.
+              I have also gained a liking for both front-end and back-end programming, with me like to make sure that both my user interface is appealing to users and making sure that the app runs smoothly for the user. I also like learning new technologies such as angular which I'm currently using for this CV
+              and I also like working with others often learning from them too as IT is a big field and so there is always more to learn from both your co-workers.'
+            </p>
+          </div>
+
+
         </div>
       </div>
     </div>
